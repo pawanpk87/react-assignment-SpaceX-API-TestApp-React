@@ -1,0 +1,28 @@
+.main-content{
+    width: 50%;
+    margin: auto;
+    padding-top:20px ;
+}
+
+.main-content .title
+{
+    text-align: center;
+}
+
+.main-content .title span{
+    font-size: 30px;
+    font-weight: 700;
+    color: blue;
+}
+
+.main-content .description {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    height: auto;
+    text-overflow: ellipsis;
+    text-align: left;
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+    white-space: 4px;
+    color: rgb(36, 35, 35);
+}

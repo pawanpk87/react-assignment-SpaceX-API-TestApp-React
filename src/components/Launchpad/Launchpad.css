@@ -1,0 +1,164 @@
+.launchpad-card-main {
+    width: 60%;
+    margin: auto;
+    border-bottom: 2px solid rgb(213, 213, 213) !important;
+}
+
+.launchpad-card {
+    background: #fff;
+    font-family: var(--text);
+    width: 100%;
+    margin-top: 15px;
+}
+
+.launchpad-img {
+    height: 20rem;
+    overflow: hidden;
+    margin: auto;
+}
+
+.launchpad-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
+}
+
+.launchpad-card .launchpad-content .launchpad-title {
+    height: auto;    
+    text-overflow: ellipsis;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    white-space: 4px;
+    color: rgb(0, 0, 0);
+    margin-top: 1.5rem;
+}
+
+.launchpad-card .launchpad-content .description {
+    margin-top: 0.8rem;
+    height: auto;
+    text-overflow: ellipsis;
+    text-align: left;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    white-space: 4px;
+    color: rgb(36, 35, 35);
+}
+
+.launche-items {
+    height: auto;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.launche-items small {
+    font-size: 9px;
+    border: 0.1px solid rgb(204, 204, 204);
+    padding: 2px 4px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.launches a:hover {
+    color: black;
+}
+
+.launchpad-content {
+    padding: 1rem;
+}
+
+.launchpad-details {
+    margin-bottom: 15px;
+}
+
+.launchpad-details,
+.status-text {
+    display: flex;
+    align-items: center;
+}
+
+.status-text {
+    margin-right: 1rem;
+}
+
+.launches {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-card-user {
+    margin-right: 5px;
+}
+
+#blog-user-name a:hover {
+    color: black;
+}
+
+.blog-card-user img {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    object-fit: cover;
+    display: block;
+    position: relative;
+}
+
+#blog-user-name {
+    font-size: small;
+    font-weight: 500;
+}
+
+#launchpad-status-text {
+    font-size: medium;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .launchpad-card-main {
+        width: 100%;
+    }
+    .launchpad-img {
+        height: 15rem;
+    }
+}
+
+@media(min-width: 990px) {
+    .launchpad-card {
+        display: flex;
+        height: auto;
+        overflow: hidden;
+    }
+    .launchpad-img {
+        margin: auto;
+        height: auto;
+        flex: 0.6;
+    }
+    .launchpad-img img {
+        margin: auto;
+        width: 90%;
+        height: 50%;
+        border-radius: 3%;
+        object-fit: cover;
+        min-height: 120px;
+        max-height: 60px;
+    }
+    .launchpad-content {
+        flex: 2;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .launchpad-card-main {
+        width: 100% !important;
+        margin: 0px;
+    }
+}
